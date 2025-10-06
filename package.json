@@ -1,0 +1,23 @@
+{
+  "name": "@clincare/source",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "https://github.com/msboffl/clincare#readme",
+  "bugs": {
+    "url": "https://github.com/msboffl/clincare/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msboffl/clincare.git"
+  },
+  "license": "MIT",
+  "author": "Mareedu Saibabu",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

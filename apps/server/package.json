@@ -1,0 +1,23 @@
+{
+  "name": "@clincare/server",
+  "version": "0.0.1",
+  "description": "Clincare Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts",
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.7.0",
+    "tsx": "^4.20.6"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
