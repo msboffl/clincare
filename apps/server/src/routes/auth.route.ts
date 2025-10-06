@@ -2,7 +2,7 @@ import { Router } from "express";
 
 const authRouter: Router = Router();
 
-authRouter.get("/login", (req, res) => {
+authRouter.get("/login", (_, res) => {
   res.send({ message: "login api" });
 });
 
