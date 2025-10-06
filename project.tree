@@ -1,0 +1,51 @@
+├── .gitignore
+├── apps
+│  ├── mobile
+│  ├── server
+│  │  ├── .env
+│  │  ├── dist
+│  │  │  ├── index.d.ts
+│  │  │  ├── index.d.ts.map
+│  │  │  ├── index.js
+│  │  │  └── index.js.map
+│  │  ├── package.json
+│  │  ├── src
+│  │  │  ├── index.ts
+│  │  │  └── routes
+│  │  │    └── index.ts
+│  │  └── tsconfig.json
+│  └── web
+│    ├── .gitignore
+│    ├── dist
+│    │  ├── assets
+│    │  │  ├── index-Bpz8tsPx.js
+│    │  │  ├── index-D8b4DHJx.css
+│    │  │  └── react-CHdo91hT.svg
+│    │  ├── index.html
+│    │  └── vite.svg
+│    ├── eslint.config.js
+│    ├── index.html
+│    ├── package.json
+│    ├── public
+│    │  └── vite.svg
+│    ├── README.md
+│    ├── src
+│    │  ├── App.css
+│    │  ├── App.tsx
+│    │  ├── assets
+│    │  │  └── react.svg
+│    │  ├── index.css
+│    │  └── main.tsx
+│    ├── tsconfig.app.json
+│    ├── tsconfig.json
+│    ├── tsconfig.node.json
+│    └── vite.config.ts
+├── LICENSE
+├── package.json
+├── packages
+│  └── .gitkeep
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+├── tsconfig.base.json
+└── tsconfig.json
